@@ -50,12 +50,12 @@ This dataset includes patient health metrics to predict heart disease.
 ---
 
 ## 📈 Results
-
-| Model                    | Accuracy | Cross-Validation Accuracy |
-|--------------------------|----------|----------------------------|
-| Decision Tree            | ~80%     | ~79%                       |
-| Pruned Decision Tree     | ~83%     | ~82%                       |
-| Random Forest            | ~87%     | ~85%                       |
+| Model                       | Accuracy        |
+| --------------------------- | --------------- |
+| **Decision Tree (default)** | 98.54%          |
+| **Pruned Tree (depth=3)**   | 78.05%          |
+| **Random Forest**           | 98.54%          |
+| **Cross-Validation (RF)**   | Avg: **99.71%** |
 
 ---
 
